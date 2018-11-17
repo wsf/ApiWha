@@ -4,7 +4,7 @@ var mensaje = "texto de prueba";
 var settings = {
     "async": true,
     "crossDomain": true,
-    "url": "https://panel.apiwha.com/send_message.php?apikey="+apiKey+"&number="+numero+"&"+mensaje,
+    "url": "https://panel.apiwha.com/send_message.php?apikey="+apiKey+"&number="+numero+"&text="+mensaje,
     "method": "GET",
     "headers": {}
   }
